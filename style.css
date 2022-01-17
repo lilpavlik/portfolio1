@@ -252,6 +252,11 @@ padding-top: 60px;
   gap: 25px;
 }
 
+.portfolio_photo img{
+  width: 450px;
+  height: 560px;
+}
+
 
 /* Video */
 .video-container{
@@ -285,6 +290,10 @@ margin: 60px 20px 0px 20px;
 background-image: url(C:\Users\User\Desktop\portfolio\photo_player.jpg)
 }
 
+.video_player img{
+  width: 1400px;
+  height: 750px;
+}
 
 .video_player svg{
   position: absolute;
