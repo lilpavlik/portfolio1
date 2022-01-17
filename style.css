@@ -35,6 +35,11 @@ html{
     width: 70px;
 }
 
+.header-logo img{
+  width: 50px;
+  height: 40px;
+}
+
 
 .nav_main-part{
     margin-bottom: 250px;
