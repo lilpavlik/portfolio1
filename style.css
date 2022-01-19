@@ -33,6 +33,7 @@ html{
 .header-logo{
     margin: 25px 0 0 20px;
     width: 70px;
+    
 }
 
 .header-logo img{
@@ -49,7 +50,9 @@ html{
 }
 
 .please{
-    width: 100%;   
+    width: 100%;
+   display: inline;
+   position: relative;
 }
 
 
@@ -59,7 +62,11 @@ html{
     list-style: none;
     display: flex;
     padding: 0;
+    position: absolute;
+    right: 100px;
+    
 }
+
 
 
 .nav_nav a{
@@ -68,16 +75,43 @@ html{
     line-height: 50px;
     color:white;
     font-family: Inter;
+    margin: 5px;
 }
 
 .nav_nav a:hover{
 color: #BDAE82;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 .nav_nav li{
     margin: 0% 1%;
 }
+
+.language{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  color: white;
+  font-family: Inter;
+  height: 50px;
+  position: absolute;
+  right: 18px;
+  top: 0px;
+
+}
+
+.language a{
+  color:white;
+}
+
+.language a:hover{
+  color:#BDAE82;
+  cursor: pointer;
+    transition: 0.4s;
+}
+
+
 
 
   .text-on-main-part h1 {
@@ -118,6 +152,11 @@ color:white;
       margin-top: 33px;
   }
   
+  .text-on-main-part button:hover{
+    color:white;
+    cursor: pointer;
+    transition: 0.4s;
+  }
 
 
   /* Skills */
@@ -150,7 +189,7 @@ font-size:40px;
     display: flex;
   margin: 60px 20px 0px 20px;
   justify-content: space-between;
-  justify-content: center;
+
   }
   
 
@@ -163,7 +202,7 @@ font-size:40px;
   font-size: 20px;
   font-weight: 700;
   line-height: 40px;
-  font-family: Merriweather;
+  font-family: Inter;
 }
 
 
@@ -239,6 +278,7 @@ padding-top: 60px;
     color: black;
     background-color:#BDAE82;
     cursor: pointer;
+    transition: 0.4s;
   }
 
 
@@ -295,10 +335,12 @@ background-image: url(./images/photo_player.jpg)
   height: 750px;
 }
 
-.video_player svg{
+.video_player button{
   position: absolute;
   margin-top: 300px;
   margin-left: 640px;
+  background-color: rgba(0, 125, 215, 0);
+  border: 5px solid transparent;
 }
 
 
@@ -350,6 +392,7 @@ background-image: url(./images/photo_player.jpg)
 .only_price_item:hover{
   background-color:#BDAE82;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 
@@ -365,6 +408,7 @@ background-image: url(./images/photo_player.jpg)
 .only_price_item h4:hover{
   color:black;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 
@@ -380,6 +424,7 @@ background-image: url(./images/photo_player.jpg)
 .only_price_item p:hover{
   color:black;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 
@@ -404,6 +449,11 @@ background-image: url(./images/photo_player.jpg)
       font-family: Inter;
 }
 
+.only_price_item button:hover{
+  color:white;
+  cursor: pointer;
+    transition: 0.4s;
+}
 
 
 /* Contact */
@@ -474,6 +524,12 @@ font-family: Inter;
   background-color:#BDAE82;
 }
 
+.contact-title-items button:hover{
+  color:white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
 
 .contact_place::placeholder, .contacts_area::placeholder {
   color: #BDAE82 ;
@@ -488,15 +544,13 @@ font-family: Inter;
   height: 150px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+ 
 }
 
 
 .footer-data{
   width: 182px;
   height: 50px;
-  justify-content: right;
-list-style: none;
 display: flex;
 font-size:20px;     
 font-weight: 400;
@@ -508,13 +562,13 @@ gap: 25px;
 
 
 .socials-list{
-  justify-content: right;
-  list-style: none;
   display: flex;
   padding: 0;
-  width: 180px;
+  width: 250px;
   height: 50px;
+
 }
+
 
 
 .socials-list a{
@@ -523,11 +577,19 @@ gap: 25px;
   line-height: 50px;
   color:white;
   font-family: Inter;
+
+  
+}
+
+.socials-list li{
+  display: inline;
+  text-decoration: none;
 }
 
 
 .footer-data a{
   color:white;
+
 }
 
 
